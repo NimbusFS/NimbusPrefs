@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B163998151EA0A900DB1218 /* APITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B163997151EA0A900DB1218 /* APITest.m */; };
+		1B1639C3151EB1D900DB1218 /* libCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1639C2151EB1D900DB1218 /* libCloud.a */; };
+		1BADBC50151DB37700D03234 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BADBC4F151DB37700D03234 /* CoreFoundation.framework */; };
+		1BADBC53151DB37700D03234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BADBC52151DB37700D03234 /* main.m */; };
+		1BADBC55151DB37700D03234 /* Nimbus.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BADBC54151DB37700D03234 /* Nimbus.1 */; };
+		1BADBC69151DB41300D03234 /* NSError+POSIX.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BADBC64151DB41300D03234 /* NSError+POSIX.m */; };
+		1BADBC6A151DB41300D03234 /* NimbusFUSEFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BADBC66151DB41300D03234 /* NimbusFUSEFileSystem.m */; };
+		1BADBC6B151DB41300D03234 /* NimbusFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BADBC68151DB41300D03234 /* NimbusFile.m */; };
+		1BADBC72151DB48D00D03234 /* OSXFUSE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BADBC71151DB48D00D03234 /* OSXFUSE.framework */; };
+		1BADBC7F151DB7B100D03234 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEA7F66151A216D00A71A34 /* Cocoa.framework */; };
+		1BADBC80151DB7F900D03234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEA7F6D151A216D00A71A34 /* Foundation.framework */; };
+		1BADBCB3151E874D00D03234 /* NimbusPrefs-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1BADBCB2151E874D00D03234 /* NimbusPrefs-Prefix.pch */; };
+		1BADBCB5151E875800D03234 /* Nimbus-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1BADBCB4151E875800D03234 /* Nimbus-Prefix.pch */; };
+		1BADBCB7151E8D8E00D03234 /* Nimbus.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1BADBCB6151E8D8D00D03234 /* Nimbus.icns */; };
+		1BEA7F67151A216D00A71A34 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEA7F66151A216D00A71A34 /* Cocoa.framework */; };
+		1BEA7F69151A216D00A71A34 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEA7F68151A216D00A71A34 /* PreferencePanes.framework */; };
+		1BEA7F73151A216D00A71A34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BEA7F71151A216D00A71A34 /* InfoPlist.strings */; };
+		1BEA7F77151A216D00A71A34 /* NimbusPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA7F76151A216D00A71A34 /* NimbusPrefs.m */; };
+		1BEA7F79151A216D00A71A34 /* NimbusPrefs.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1BEA7F78151A216D00A71A34 /* NimbusPrefs.tiff */; };
+		1BEA7F7C151A216D00A71A34 /* NimbusPrefs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BEA7F7A151A216D00A71A34 /* NimbusPrefs.xib */; };
+		1BEA7F84151A2C6800A71A34 /* NSAttributedString+Hyperlink.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BEA7F82151A2C6800A71A34 /* NSAttributedString+Hyperlink.h */; };
+		1BEA7F85151A2C6800A71A34 /* NSAttributedString+Hyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA7F83151A2C6800A71A34 /* NSAttributedString+Hyperlink.m */; };
+		1BEA7F89151A376600A71A34 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEA7F88151A376600A71A34 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BADBC4B151DB37600D03234 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1BADBC55151DB37700D03234 /* Nimbus.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B163996151EA0A900DB1218 /* APITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APITest.h; sourceTree = "<group>"; };
+		1B163997151EA0A900DB1218 /* APITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APITest.m; sourceTree = "<group>"; };
+		1B1639C2151EB1D900DB1218 /* libCloud.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCloud.a; path = "../../../Library/Developer/Xcode/DerivedData/NimbusPrefs-eiuyvtflxjngiueesisizpapvjxs/Build/Products/Debug/libCloud.a"; sourceTree = "<group>"; };
+		1BADBC4D151DB37600D03234 /* Nimbus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Nimbus; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BADBC4F151DB37700D03234 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1BADBC52151DB37700D03234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BADBC54151DB37700D03234 /* Nimbus.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Nimbus.1; sourceTree = "<group>"; };
+		1BADBC63151DB41300D03234 /* NSError+POSIX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+POSIX.h"; path = "Nimbus/NSError+POSIX.h"; sourceTree = "<group>"; };
+		1BADBC64151DB41300D03234 /* NSError+POSIX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+POSIX.m"; path = "Nimbus/NSError+POSIX.m"; sourceTree = "<group>"; };
+		1BADBC65151DB41300D03234 /* NimbusFUSEFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusFUSEFileSystem.h; sourceTree = "<group>"; };
+		1BADBC66151DB41300D03234 /* NimbusFUSEFileSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NimbusFUSEFileSystem.m; sourceTree = "<group>"; };
+		1BADBC67151DB41300D03234 /* NimbusFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusFile.h; sourceTree = "<group>"; };
+		1BADBC68151DB41300D03234 /* NimbusFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NimbusFile.m; sourceTree = "<group>"; };
+		1BADBC71151DB48D00D03234 /* OSXFUSE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSXFUSE.framework; path = Library/Frameworks/OSXFUSE.framework; sourceTree = SDKROOT; };
+		1BADBCA4151E7D5300D03234 /* CLAPIEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLAPIEngine.h; path = "../../3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/CLAPIEngine.h"; sourceTree = "<group>"; };
+		1BADBCA5151E7D5300D03234 /* CLAPIEngineConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLAPIEngineConstants.h; path = "../../3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/CLAPIEngineConstants.h"; sourceTree = "<group>"; };
+		1BADBCA6151E7D5300D03234 /* CLAPITransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLAPITransaction.h; path = "../../3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/CLAPITransaction.h"; sourceTree = "<group>"; };
+		1BADBCA7151E7D5300D03234 /* Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cloud.h; path = "../../3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/Cloud.h"; sourceTree = "<group>"; };
+		1BADBCA8151E7D5300D03234 /* CLAPIDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLAPIDeserializer.h; path = "../../3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/API Parsing/CLAPIDeserializer.h"; sourceTree = "<group>"; };
+		1BADBCA9151E7D5300D03234 /* CLAPIEngineDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLAPIEngineDelegate.h; path = "/Users/sagar/Projects/3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/API Parsing/../CLAPIEngineDelegate.h"; sourceTree = "<absolute>"; };
+		1BADBCAA151E7D5300D03234 /* CLAPISerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLAPISerializer.h; path = "../../3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/API Parsing/CLAPISerializer.h"; sourceTree = "<group>"; };
+		1BADBCAB151E7D5300D03234 /* NSMutableURLRequest+NPPOSTBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest+NPPOSTBody.h"; path = "../../3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/Categories/NSMutableURLRequest+NPPOSTBody.h"; sourceTree = "<group>"; };
+		1BADBCAC151E7D5300D03234 /* NSString+NPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+NPAdditions.h"; path = "../../3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/Categories/NSString+NPAdditions.h"; sourceTree = "<group>"; };
+		1BADBCAD151E7D5300D03234 /* NSString+NPMimeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+NPMimeType.h"; path = "../../3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/Categories/NSString+NPMimeType.h"; sourceTree = "<group>"; };
+		1BADBCAE151E7D5300D03234 /* CLAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLAccount.h; path = "../../3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/Model/CLAccount.h"; sourceTree = "<group>"; };
+		1BADBCAF151E7D5300D03234 /* CLSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLSocket.h; path = "../../3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/Model/CLSocket.h"; sourceTree = "<group>"; };
+		1BADBCB0151E7D5300D03234 /* CLWebItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLWebItem.h; path = "../../3rdparty/cloud-app-obj-c/Source/libCloud/Cloud/Model/CLWebItem.h"; sourceTree = "<group>"; };
+		1BADBCB2151E874D00D03234 /* NimbusPrefs-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NimbusPrefs-Prefix.pch"; sourceTree = "<group>"; };
+		1BADBCB4151E875800D03234 /* Nimbus-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Nimbus-Prefix.pch"; sourceTree = "<group>"; };
+		1BADBCB6151E8D8D00D03234 /* Nimbus.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Nimbus.icns; sourceTree = "<group>"; };
+		1BEA7F63151A216D00A71A34 /* NimbusPrefs.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbusPrefs.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEA7F66151A216D00A71A34 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1BEA7F68151A216D00A71A34 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		1BEA7F6B151A216D00A71A34 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1BEA7F6C151A216D00A71A34 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1BEA7F6D151A216D00A71A34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BEA7F70151A216D00A71A34 /* NimbusPrefs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NimbusPrefs-Info.plist"; sourceTree = "<group>"; };
+		1BEA7F72151A216D00A71A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BEA7F75151A216D00A71A34 /* NimbusPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NimbusPrefs.h; sourceTree = "<group>"; };
+		1BEA7F76151A216D00A71A34 /* NimbusPrefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NimbusPrefs.m; sourceTree = "<group>"; };
+		1BEA7F78151A216D00A71A34 /* NimbusPrefs.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = NimbusPrefs.tiff; sourceTree = "<group>"; };
+		1BEA7F7B151A216D00A71A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NimbusPrefs.xib; sourceTree = "<group>"; };
+		1BEA7F82151A2C6800A71A34 /* NSAttributedString+Hyperlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Hyperlink.h"; sourceTree = "<group>"; };
+		1BEA7F83151A2C6800A71A34 /* NSAttributedString+Hyperlink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Hyperlink.m"; sourceTree = "<group>"; };
+		1BEA7F88151A376600A71A34 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BADBC4A151DB37600D03234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BADBC80151DB7F900D03234 /* Foundation.framework in Frameworks */,
+				1BADBC7F151DB7B100D03234 /* Cocoa.framework in Frameworks */,
+				1BADBC72151DB48D00D03234 /* OSXFUSE.framework in Frameworks */,
+				1B1639C3151EB1D900DB1218 /* libCloud.a in Frameworks */,
+				1BADBC50151DB37700D03234 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEA7F5E151A216D00A71A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEA7F67151A216D00A71A34 /* Cocoa.framework in Frameworks */,
+				1BEA7F69151A216D00A71A34 /* PreferencePanes.framework in Frameworks */,
+				1BEA7F89151A376600A71A34 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BADBC51151DB37700D03234 /* Nimbus */ = {
+			isa = PBXGroup;
+			children = (
+				1BADBCB1151E873E00D03234 /* Supporting Files */,
+				1BADBC65151DB41300D03234 /* NimbusFUSEFileSystem.h */,
+				1BADBC66151DB41300D03234 /* NimbusFUSEFileSystem.m */,
+				1BADBC67151DB41300D03234 /* NimbusFile.h */,
+				1BADBC68151DB41300D03234 /* NimbusFile.m */,
+				1BADBC52151DB37700D03234 /* main.m */,
+				1B163996151EA0A900DB1218 /* APITest.h */,
+				1B163997151EA0A900DB1218 /* APITest.m */,
+				1BADBC54151DB37700D03234 /* Nimbus.1 */,
+			);
+			path = Nimbus;
+			sourceTree = "<group>";
+		};
+		1BADBC62151DB3F300D03234 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1BADBC63151DB41300D03234 /* NSError+POSIX.h */,
+				1BADBC64151DB41300D03234 /* NSError+POSIX.m */,
+				1BEA7F82151A2C6800A71A34 /* NSAttributedString+Hyperlink.h */,
+				1BEA7F83151A2C6800A71A34 /* NSAttributedString+Hyperlink.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		1BADBCA3151E7D3400D03234 /* Indexing headers */ = {
+			isa = PBXGroup;
+			children = (
+				1BADBCAE151E7D5300D03234 /* CLAccount.h */,
+				1BADBCA8151E7D5300D03234 /* CLAPIDeserializer.h */,
+				1BADBCA4151E7D5300D03234 /* CLAPIEngine.h */,
+				1BADBCA5151E7D5300D03234 /* CLAPIEngineConstants.h */,
+				1BADBCA9151E7D5300D03234 /* CLAPIEngineDelegate.h */,
+				1BADBCAA151E7D5300D03234 /* CLAPISerializer.h */,
+				1BADBCA6151E7D5300D03234 /* CLAPITransaction.h */,
+				1BADBCA7151E7D5300D03234 /* Cloud.h */,
+				1BADBCAF151E7D5300D03234 /* CLSocket.h */,
+				1BADBCB0151E7D5300D03234 /* CLWebItem.h */,
+				1BADBCAB151E7D5300D03234 /* NSMutableURLRequest+NPPOSTBody.h */,
+				1BADBCAC151E7D5300D03234 /* NSString+NPAdditions.h */,
+				1BADBCAD151E7D5300D03234 /* NSString+NPMimeType.h */,
+			);
+			name = "Indexing headers";
+			sourceTree = "<group>";
+		};
+		1BADBCB1151E873E00D03234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BADBCB4151E875800D03234 /* Nimbus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BADBCB8151E8F4100D03234 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BADBCB6151E8D8D00D03234 /* Nimbus.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1BEA7F56151A216D00A71A34 = {
+			isa = PBXGroup;
+			children = (
+				1B1639C2151EB1D900DB1218 /* libCloud.a */,
+				1BADBCB8151E8F4100D03234 /* Resources */,
+				1BADBCA3151E7D3400D03234 /* Indexing headers */,
+				1BADBC62151DB3F300D03234 /* Categories */,
+				1BEA7F6E151A216D00A71A34 /* NimbusPrefs */,
+				1BADBC51151DB37700D03234 /* Nimbus */,
+				1BEA7F65151A216D00A71A34 /* Frameworks */,
+				1BEA7F64151A216D00A71A34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BEA7F64151A216D00A71A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BEA7F63151A216D00A71A34 /* NimbusPrefs.prefPane */,
+				1BADBC4D151DB37600D03234 /* Nimbus */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BEA7F65151A216D00A71A34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BEA7F6B151A216D00A71A34 /* AppKit.framework */,
+				1BEA7F66151A216D00A71A34 /* Cocoa.framework */,
+				1BEA7F6C151A216D00A71A34 /* CoreData.framework */,
+				1BADBC4F151DB37700D03234 /* CoreFoundation.framework */,
+				1BEA7F6D151A216D00A71A34 /* Foundation.framework */,
+				1BADBC71151DB48D00D03234 /* OSXFUSE.framework */,
+				1BEA7F68151A216D00A71A34 /* PreferencePanes.framework */,
+				1BEA7F88151A376600A71A34 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BEA7F6E151A216D00A71A34 /* NimbusPrefs */ = {
+			isa = PBXGroup;
+			children = (
+				1BEA7F75151A216D00A71A34 /* NimbusPrefs.h */,
+				1BEA7F76151A216D00A71A34 /* NimbusPrefs.m */,
+				1BEA7F78151A216D00A71A34 /* NimbusPrefs.tiff */,
+				1BEA7F7A151A216D00A71A34 /* NimbusPrefs.xib */,
+				1BEA7F6F151A216D00A71A34 /* Supporting Files */,
+			);
+			path = NimbusPrefs;
+			sourceTree = "<group>";
+		};
+		1BEA7F6F151A216D00A71A34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BADBCB2151E874D00D03234 /* NimbusPrefs-Prefix.pch */,
+				1BEA7F70151A216D00A71A34 /* NimbusPrefs-Info.plist */,
+				1BEA7F71151A216D00A71A34 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BEA7F5F151A216D00A71A34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEA7F84151A2C6800A71A34 /* NSAttributedString+Hyperlink.h in Headers */,
+				1BADBCB3151E874D00D03234 /* NimbusPrefs-Prefix.pch in Headers */,
+				1BADBCB5151E875800D03234 /* Nimbus-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BADBC4C151DB37600D03234 /* Nimbus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BADBC56151DB37700D03234 /* Build configuration list for PBXNativeTarget "Nimbus" */;
+			buildPhases = (
+				1BADBC49151DB37600D03234 /* Sources */,
+				1BADBC4A151DB37600D03234 /* Frameworks */,
+				1BADBC4B151DB37600D03234 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nimbus;
+			productName = Nimbus;
+			productReference = 1BADBC4D151DB37600D03234 /* Nimbus */;
+			productType = "com.apple.product-type.tool";
+		};
+		1BEA7F62151A216D00A71A34 /* NimbusPrefs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEA7F7F151A216D00A71A34 /* Build configuration list for PBXNativeTarget "NimbusPrefs" */;
+			buildPhases = (
+				1BEA7F5D151A216D00A71A34 /* Sources */,
+				1BEA7F5E151A216D00A71A34 /* Frameworks */,
+				1BEA7F5F151A216D00A71A34 /* Headers */,
+				1BEA7F60151A216D00A71A34 /* Resources */,
+				1BEA7F61151A216D00A71A34 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimbusPrefs;
+			productName = NimbusPrefs;
+			productReference = 1BEA7F63151A216D00A71A34 /* NimbusPrefs.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BEA7F58151A216D00A71A34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1BEA7F5B151A216D00A71A34 /* Build configuration list for PBXProject "NimbusPrefs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BEA7F56151A216D00A71A34;
+			productRefGroup = 1BEA7F64151A216D00A71A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BEA7F62151A216D00A71A34 /* NimbusPrefs */,
+				1BADBC4C151DB37600D03234 /* Nimbus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BEA7F60151A216D00A71A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEA7F73151A216D00A71A34 /* InfoPlist.strings in Resources */,
+				1BEA7F79151A216D00A71A34 /* NimbusPrefs.tiff in Resources */,
+				1BEA7F7C151A216D00A71A34 /* NimbusPrefs.xib in Resources */,
+				1BADBCB7151E8D8E00D03234 /* Nimbus.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		1BEA7F61151A216D00A71A34 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BADBC49151DB37600D03234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BADBC53151DB37700D03234 /* main.m in Sources */,
+				1BADBC69151DB41300D03234 /* NSError+POSIX.m in Sources */,
+				1BADBC6A151DB41300D03234 /* NimbusFUSEFileSystem.m in Sources */,
+				1BADBC6B151DB41300D03234 /* NimbusFile.m in Sources */,
+				1B163998151EA0A900DB1218 /* APITest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEA7F5D151A216D00A71A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEA7F77151A216D00A71A34 /* NimbusPrefs.m in Sources */,
+				1BEA7F85151A2C6800A71A34 /* NSAttributedString+Hyperlink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BEA7F71151A216D00A71A34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEA7F72151A216D00A71A34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BEA7F7A151A216D00A71A34 /* NimbusPrefs.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BEA7F7B151A216D00A71A34 /* en */,
+			);
+			name = NimbusPrefs.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BADBC57151DB37700D03234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nimbus/Nimbus-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/NimbusPrefs-eiuyvtflxjngiueesisizpapvjxs/Build/Products/Debug\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/Cloud-bwpjcjtbylkhsherumfqnvcbhwvp/Build/Products/Debug\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+			};
+			name = Debug;
+		};
+		1BADBC58151DB37700D03234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nimbus/Nimbus-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/NimbusPrefs-eiuyvtflxjngiueesisizpapvjxs/Build/Products/Debug\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/Cloud-bwpjcjtbylkhsherumfqnvcbhwvp/Build/Products/Debug\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+			};
+			name = Release;
+		};
+		1BEA7F7D151A216D00A71A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1BEA7F7E151A216D00A71A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1BEA7F80151A216D00A71A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NimbusPrefs/NimbusPrefs-Prefix.pch";
+				INFOPLIST_FILE = "NimbusPrefs/NimbusPrefs-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		1BEA7F81151A216D00A71A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NimbusPrefs/NimbusPrefs-Prefix.pch";
+				INFOPLIST_FILE = "NimbusPrefs/NimbusPrefs-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BADBC56151DB37700D03234 /* Build configuration list for PBXNativeTarget "Nimbus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BADBC57151DB37700D03234 /* Debug */,
+				1BADBC58151DB37700D03234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEA7F5B151A216D00A71A34 /* Build configuration list for PBXProject "NimbusPrefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEA7F7D151A216D00A71A34 /* Debug */,
+				1BEA7F7E151A216D00A71A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEA7F7F151A216D00A71A34 /* Build configuration list for PBXNativeTarget "NimbusPrefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEA7F80151A216D00A71A34 /* Debug */,
+				1BEA7F81151A216D00A71A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BEA7F58151A216D00A71A34 /* Project object */;
+}
